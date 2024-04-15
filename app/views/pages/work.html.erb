@@ -8,3 +8,14 @@
         <p>A business website, different languages were used to access a database and show it to the user.</p>
     </div>
 </div>
+
+<button onclick="redirect('http://localhost:3000/home')">Home</button>
+<button onclick="redirect('http://localhost:3000/about')">About</button>
+<button onclick="redirect('http://localhost:3000/work')">Work</button>
+<button onclick="redirect('http://localhost:3000/contact')">Contact</button>
+
+<script>
+    function redirect(url) {
+        window.location.href = url
+    }
+</script>

@@ -2,4 +2,15 @@
 <p>I graduated from the University of Memphis with my bachelors in computer science in 2005.
     I have skills in ruby, python, javascript, html, css, c/++, and java.
     I have worked on dozens of websites over my career and have recieved high reviews from my clients.
-    </p>
+</p>
+
+<button onclick="redirect('http://localhost:3000/home')">Home</button>
+<button onclick="redirect('http://localhost:3000/about')">About</button>
+<button onclick="redirect('http://localhost:3000/work')">Work</button>
+<button onclick="redirect('http://localhost:3000/contact')">Contact</button>
+
+<script>
+    function redirect(url) {
+        window.location.href = url
+    }
+</script>

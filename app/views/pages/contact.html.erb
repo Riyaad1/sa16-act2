@@ -2,3 +2,14 @@
 <p>Phone: 901-XXX-XXXX</p>
 <p>Email: XXXXXXX@gmail.com</p>
 <p>Youtube: https://youtube.com/XXXXXXXX</p>
+
+<button onclick="redirect('http://localhost:3000/home')">Home</button>
+<button onclick="redirect('http://localhost:3000/about')">About</button>
+<button onclick="redirect('http://localhost:3000/work')">Work</button>
+<button onclick="redirect('http://localhost:3000/contact')">Contact</button>
+
+<script>
+    function redirect(url) {
+        window.location.href = url
+    }
+</script>
